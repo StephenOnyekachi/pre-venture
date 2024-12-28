@@ -72,7 +72,7 @@
     }
 
     .card{
-        height: 310px;
+        height: 325px;
         margin: 10px 0px;
     }
     .card:hover{
@@ -103,6 +103,9 @@
         width: 100%;
         padding: 20px;
     }
+    .l-con-text h3{
+        font-size: 2rem;
+    }
     .l-con-text p{
         font-size: 1.1rem;
         color: var(--dack);
@@ -111,6 +114,9 @@
     .m-con{
         padding-left: 25px;
         padding-right: 25px;
+    }
+    .m-con h3{
+        font-size: 2rem;
     }
     .m-con-i{
         padding: 6px;
