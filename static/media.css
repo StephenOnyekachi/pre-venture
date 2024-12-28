@@ -42,7 +42,7 @@
         color: var(--light);
     }
     .bg img{
-        height: 130vh;
+        height: 120vh;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
@@ -52,7 +52,7 @@
         /* display: none; */
     }
     .bg-cover{
-        height: auto;
+        height: 120vh;
         width: 100%;
         position: relative;
     }
@@ -69,6 +69,14 @@
         width: 100%;
         justify-self: center;
         display: block;
+    }
+
+    .card{
+        height: 260px;
+        margin: 10px 0px;
+    }
+    .card:hover{
+        margin: 10px 0px;
     }
 
     .social{
@@ -112,6 +120,16 @@
         width: 50%;
         text-align: center;
         padding: 10px;
+    }
+    #images{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    #images img{
+        width: 100%;
+        object-fit: contain;
+        height: 100px;
     }
     .images img{
         width: 100%;
