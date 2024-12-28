@@ -56,10 +56,10 @@
 .bg{
     top: 0%;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
 }
 .bg img{
-    height: 90vh;
+    height: 95vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -70,7 +70,7 @@
 .bg-cover{
     padding: 10px;
     background: linear-gradient(to right, rgba(133, 88, 237, 0.474), rgba(108, 45, 255, 0.484));
-    height: 90vh;
+    height: 95vh;
     position: absolute;
     top: 0px;
     width: 100%;
@@ -89,7 +89,7 @@
     font-weight: bolder;
 }
 .bg-con p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--light);
 }
 .bg-card-con{
@@ -101,10 +101,10 @@
 }
 .card{
     background-color: var(--bg);
-    padding: 20px;
-    margin: 10px;
+    padding: 15px;
+    margin: 10px 10px;
     width: 100%;
-    height: 250px;
+    height: 275px;
     border-radius: 6px;
     text-align: left;
     transition: all 0.5s ease;
@@ -113,7 +113,7 @@
     background-color: var(--shadow);
     box-shadow: 1px 3px 4px 1px var(--lighter);
     padding: 20px;
-    margin: 10px;
+    margin: 10px 10px;
     width: 100%;
     border-radius: 6px;
     text-align: left;
@@ -122,19 +122,19 @@
 .card-con{
     display: flex;
     margin: 6px;
-    padding: 6px;
+    padding: 2px;
 }
 .card-con i{
-    padding: 15px;
+    padding: 10px;
     margin-right: 15px;
     margin-left: -15px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--light);
     background-color: var(--shadow);
     border-radius: 50%;
 }
 .card-con h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--light);
     text-transform: capitalize;
     font-weight: bold;
