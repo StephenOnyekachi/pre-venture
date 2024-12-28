@@ -52,7 +52,7 @@
         /* display: none; */
     }
     .bg-cover{
-        height: 120vh;
+        height: auto;
         width: 100%;
         position: relative;
     }
@@ -72,7 +72,7 @@
     }
 
     .card{
-        height: 260px;
+        height: 270px;
         margin: 10px 0px;
     }
     .card:hover{
